@@ -22,6 +22,7 @@ export class AppComponent{
   }
 
 	submit() {
+		console.log("First commit.");
 		this.date = new Date(this.model.year, this.model.month-1, this.model.day, this.time.hour, this.time.minute);
 		console.log("date is:" + this.date.toISOString());	
 	}
