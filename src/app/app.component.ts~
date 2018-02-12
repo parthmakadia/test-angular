@@ -27,6 +27,6 @@ export class AppComponent{
 	}
 
 	this.newDate = new Date();
-	this.year = this.newDate.toISOString();
+	this.year = this.newDate.getDate();
 	console.log("today date is:" + this.year);
 }

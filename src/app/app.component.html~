@@ -29,3 +29,5 @@
 </form>
 <pre>Model: {{ model | json }}</pre>
 <p>time:{{time | json}}</p>
+
+<input type="date">
